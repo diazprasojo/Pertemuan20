@@ -6,15 +6,16 @@
     <style>
         body {
             margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: #0f172a;
-            color: #ffffff;
+            font-family: Arial, sans-serif;
+            background-color: #f0f9ff;
+            color: #1e293b;
         }
 
         header {
-            background: linear-gradient(135deg, #6d28d9, #9333ea);
+            background: linear-gradient(135deg, #38bdf8, #22c55e);
             padding: 40px 20px;
             text-align: center;
+            color: white;
         }
 
         header img {
@@ -33,7 +34,7 @@
 
         h2 {
             text-align: center;
-            color: #c4b5fd;
+            color: #0284c7;
             margin-bottom: 30px;
         }
 
@@ -44,14 +45,15 @@
 
         .portfolio {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 20px;
         }
 
         .card {
-            background-color: #1e293b;
+            background-color: white;
             padding: 20px;
-            border-radius: 10px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
             text-align: center;
         }
 
@@ -70,16 +72,11 @@
             text-align: center;
         }
 
-        .contact p {
-            margin: 8px 0;
-        }
-
         footer {
-            background-color: #020617;
+            background-color: #e0f2fe;
             text-align: center;
             padding: 15px;
             font-size: 14px;
-            color: #94a3b8;
         }
     </style>
 </head>
@@ -88,16 +85,16 @@
 <header>
     <img src="https://via.placeholder.com/300" alt="Foto Profil">
     <h1>Nama Mahasiswa</h1>
-    <p>Mahasiswa | Web Developer</p>
+    <p>Mahasiswa | Multimedia & Web</p>
 </header>
 
 <section>
     <h2>Tentang Saya</h2>
     <div class="about">
         <p>
-            Saya adalah mahasiswa yang tertarik pada bidang pengembangan website dan multimedia.
+            Saya adalah mahasiswa yang memiliki minat dalam bidang desain dan pengembangan website.
             Website portofolio ini dibuat sebagai tugas Ujian Akhir Semester untuk menampilkan
-            data diri dan contoh karya yang pernah saya buat.
+            data diri serta karya multimedia yang pernah saya buat.
         </p>
     </div>
 </section>
@@ -106,31 +103,45 @@
     <h2>Portofolio</h2>
     <div class="portfolio">
 
-        <!-- Karya Gambar -->
+        <!-- Gambar 1 -->
         <div class="card">
-            <h3>Karya Gambar</h3>
-            <img src="https://via.placeholder.com/400x250" alt="Karya Gambar">
-            <p>Desain poster digital menggunakan konsep modern.</p>
+            <h3>Karya Gambar 1</h3>
+            <img src="webhitung.jpg" alt="Gambar 1">
+            <p>Desain visual dengan konsep cerah dan modern.</p>
         </div>
 
-        <!-- Karya Video -->
+        <!-- Gambar 2 -->
+        <div class="card">
+            <h3>Karya Gambar 2</h3>
+            <img src="webumur.jpg" alt="Gambar 2">
+            <p>Ilustrasi digital dengan warna yang fresh.</p>
+        </div>
+
+        <!-- Gambar 3 -->
+        <div class="card">
+            <h3>Karya Gambar 3</h3>
+            <img src="webprofil.jpg" alt="Gambar 3">
+            <p>Poster sederhana untuk media promosi.</p>
+        </div>
+
+        <!-- Video -->
         <div class="card">
             <h3>Karya Video</h3>
             <video controls>
-                <source src="sample-video.mp4" type="video/mp4">
+                <source src="video.mp4" type="video/mp4">
                 Browser tidak mendukung video.
             </video>
-            <p>Video pendek untuk kebutuhan promosi.</p>
+            <p>Video pendek hasil editing sendiri.</p>
         </div>
 
-        <!-- Karya Musik -->
+        <!-- Musik -->
         <div class="card">
             <h3>Karya Musik</h3>
             <audio controls>
-                <source src="sample-audio.mp3" type="audio/mpeg">
+                <source src="musik.mp3" type="audio/mpeg">
                 Browser tidak mendukung audio.
             </audio>
-            <p>Musik instrumental hasil produksi sendiri.</p>
+            <p>Musik instrumental dengan nuansa ceria.</p>
         </div>
 
     </div>
@@ -146,7 +157,7 @@
 </section>
 
 <footer>
-    © 2026 Portofolio Mahasiswa | UAS
+    © 2026 Portofolio Mahasiswa
 </footer>
 
 </body>
